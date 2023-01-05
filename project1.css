@@ -2,7 +2,8 @@
 *{margin: 0px;
 
 font-family: sans-serif;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
 
 .header{background-color: #FFF8F3;
 background-image: url(file:///C:/Users/litun%20khan/Desktop/css%20projects/portfolio-resources-main/images/developer.png);
@@ -113,6 +114,7 @@ margin: 10px auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
 .column2 img{height: 40px;
 width: 40px;}
@@ -126,6 +128,25 @@ margin: 15px 0px;}
         cursor: pointer;
 padding: 18px;}
 /* end column2 work here ------------------*/
+.resume{max-width: 900px;
+        margin: 50px auto;
+} 
+.resume h3{text-align: center;
+          font-size: 30px;
+          margin-bottom: 40px;}
+.container{display: flex;
+justify-content: space-between;
+flex-wrap: wrap;}
+.col3{flex-basis: 48%;
+margin-top: 20px;
+margin-bottom: 15px;}
+.resume .container .col3 p{text-align: left;
+font-size: 14px;}
+.resume .container .col3 h4{font-size: 30px;
+margin-bottom: 20px;}
+.resume .container .col3 h6{font-size: 20px;
+margin-bottom: 10px;}
+.col3{padding-right: 10px;}
 
 
 
