@@ -1,5 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Lobster&family=Open+Sans:ital@1&family=Poppins&family=Prosto+One&display=swap');
 *{margin: 0px;
-padding: 0px;
+
 font-family: sans-serif;
 box-sizing: border-box;}
+
+.header{background-color: #FFF8F3;
+background-image: url(file:///C:/Users/litun%20khan/Desktop/css%20projects/portfolio-resources-main/images/developer.png);
+ background-repeat: no-repeat;
+background-position: left;
+background-size: 75px;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 60px;}
+
+
+
+.nav-title{font-weight: 800;
+font-size: 45px;
+text-transform: capitalize}
+.header .nav h2 span{color:#FD6E0A ;}
+.nav{display: flex;
+        
+justify-content: space-between;
+margin: 10px 150px;}
+.nav ul li{list-style: none;
+margin-left: 50px;}
+.nav ul{display: flex;
+align-items: center;}
+.nav ul li button{height: 55px;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        border: none;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 700;
+        padding: 18px 35px;
+}
+.main{margin: 0px 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.des,img{width:  40%;}
+.main .des h3{font-size: 45px;
+text-transform:capitalize;
+font-weight: 700;
+margin-bottom: 15px;}
+.main .des h1{font-size: 55px;
+text-transform: capitalize;
+margin-bottom: 8px;}
+.main .des p{line-height: 25px;
+        text-align: left;
+letter-spacing: 1px;
+margin-bottom: 14px;}
+.btn1{border-radius: 5px;
+        background-color: #FD6E0A;
+        border: none;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 700;
+        padding: 18px 35px;
+margin-right: 8px;
+font-size: 15px;}
+.btn2{border-radius: 5px;
+        background-color: #FD6E0A;
+        border: none;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 700;
+        padding: 18px 35px; font-size: 15px;}
+nav{background-image: url(file:///C:/Users/litun%20khan/Desktop/css%20projects/portfolio-resources-main/images/header_bg.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 700px;
+}
+
+.writen-part{max-width: 800px;
+margin: 0px auto;
+margin-bottom: 40px;
+background-color: #FFF8F3;
+padding: 85px 90px;
+}
+
+.writen-part .dis2 h3{text-align: center;
+margin-bottom: 20px;
+}
+.writen-part .dis2 p{text-align: center;
+        line-height: 25px;
+margin-bottom: 30px;}
+.column{display: flex;
+        align-items: center;
+justify-content: space-between;}
+.col1{flex-basis: 20%;}
+.col1 h4,p{text-align: center;}
+
+.writen-part2{max-width: 800px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        
+        padding: 30px 90px;
+       padding-bottom: none;}
+.writen-part2 .dis3 h3,p{text-align: center;}
+.writen-part2 .dis3 h3{text-transform: capitalize;
+margin-bottom: 40px;}
+.writen-part2 .dis3,p{line-height: 25px;}
+
+
+
+
+.column2{max-width: 900px;
+margin: 10px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.column2 img{height: 40px;
+width: 40px;}
+.col2{flex-basis: 23%;}
+.col2 p{text-align: left;
+margin-bottom: 10px;}
+.col2 h5{font-size: 18px;
+margin: 15px 0px;}
+.col2{box-shadow: 0px 5px 15px black;
+        border-radius: 8px;
+        cursor: pointer;
+padding: 18px;}
+/* end column2 work here ------------------*/
+
+
+
+
+
